@@ -7,6 +7,7 @@ Sistema para control de productos alimenticios desarrollado en Java con CRUD com
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
 - [Requerimientos](#requerimientos)
 - [Instalación](#instalación)
+- [Desarrollo](#desarrollo)
 - [Licencia](#licencia)
 
 ## Características principales
