@@ -11,10 +11,10 @@ Sistema para control de productos alimenticios desarrollado en Java con CRUD com
 - [Licencia](#licencia)
 
 ## Características principales
-- CRUD de productos (Crear, Leer, Actualizar, Eliminar)
+- CRUD de productos (Crear, Leer, Actualizar, Eliminar).
 - Interfaz gráfica desarrollada con Java Swing.
 - Visualización de registros en tabla dinámica.
-- Generación de reportes PDF con logotipo, fecha actual y listado de productos (Jaspersoft).
+- Generación de reportes **PDF** con logotipo, fecha actual y listado de productos (Jaspersoft).
 
 ## Screenshots
 
@@ -37,7 +37,7 @@ Sistema para control de productos alimenticios desarrollado en Java con CRUD com
 - Java
 
 **Base de datos**
-- MariaDB 12.0
+- MariaDB 12.0.2
 
 **Software**
 - Eclipse IDE 2025-03
@@ -60,7 +60,7 @@ Puedes descargar la versión más reciente de Mini Inventario 2 desde [GitHub Re
 
 ### 3. Instalar ejecutable
 - Ejecutar el .exe para comenzar la instalación
-- El programa se instalará por defecto en la ruta C:\Users\(Usuario)\AppData\Local\Inventario\, también es posible realizar la instalación en una ruta diferente como C:\Program Files\Mini Inventario 2, pero en este caso el ejecutable se debe ejecutar con privilegios de administrador.
+- El programa se instalará por defecto en la ruta `C:\Users\(Usuario)\AppData\Local\Inventario\`, también es posible realizar la instalación en una ruta diferente como `C:\Program Files\Mini Inventario 2`, pero en este caso el ejecutable se debe ejecutar con privilegios de administrador.
 
 ## Desarrollo
 Si deseas continuar con el desarrollo del proyecto.
@@ -77,7 +77,7 @@ Si deseas continuar con el desarrollo del proyecto.
 ### Instrucciones
 - Sigue las [instrucciones](#1-crear-base-de-datos) mencionadas anteriormente para crear la base de datos.
 - Clona este proyecto y copia la carpeta MiniInventario2 en tu /eclipse-workspace
-- Guarda mariadb-java-client-3.5.2.jar y las librerías .jar de Jasper Reports en una ubicación p. ej. C:\Program Files\Java\jdk-23\lib\mariadb-jdbc y C:\Program Files\Java\jdk-23\lib\jasper-reports
+- Guarda mariadb-java-client-3.5.2.jar y las librerías .jar de Jasper Reports en una ubicación p. ej. `C:\Program Files\Java\jdk-23\lib\mariadb-jdbc` y `C:\Program Files\Java\jdk-23\lib\jasper-reports`
 - Importar librerías al proyecto en Eclipse IDE:
 
 ```ini
