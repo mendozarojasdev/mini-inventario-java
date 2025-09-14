@@ -77,7 +77,7 @@ Si deseas continuar con el desarrollo del proyecto.
 ### Instrucciones
 - Sigue las [instrucciones](#1-crear-base-de-datos) mencionadas anteriormente para crear la base de datos.
 - Clona este proyecto y copia la carpeta MiniInventario2 en tu /eclipse-workspace
-- Guarda mariadb-java-client-3.5.2.jar y las librerías .jar de Jasper Reports en una ubicación p. ej. `C:\Program Files\Java\jdk-23\lib\mariadb-jdbc` y `C:\Program Files\Java\jdk-23\lib\jasper-reports`
+- Guarda `mariadb-java-client-3.5.2.jar` y las librerías `.jar` de Jasper Reports en una ubicación p. ej. `C:\Program Files\Java\jdk-23\lib\mariadb-jdbc` y `C:\Program Files\Java\jdk-23\lib\jasper-reports`
 - Importar librerías al proyecto en Eclipse IDE:
 
 ```ini
