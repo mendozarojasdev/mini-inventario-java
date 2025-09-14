@@ -89,7 +89,7 @@ add external jars...
 ```
 Realizar el mismo procedimiento para las librerias de Jasper Reports.
 
-✅ Listo, ahora podrás continuar desarrollando el proyecto.
+✅ Listo, ahora podrás continuar con el desarrollo del proyecto.
 
 ## Licencia
 Mini Inventario 2 está publicado bajo la licencia MIT. Consulta el archivo [MIT license](https://github.com/mendozarojasdev/mini-inventario-java/blob/master/LICENSE) para más información.
