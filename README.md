@@ -53,7 +53,7 @@ Sistema para control de productos alimenticios desarrollado en Java con CRUD com
 - Abre la consola de MariaDB
 - Ingresa con usuario: **root** (sin contraseña por defecto).
 - Copia y ejecuta el [esquema](database/scheme.sql) que se encuentra en el repositorio.
-- Crea al usuario administrador ejecutando la instrucción [seed](database/seed.sql).
+- Crea al usuario para el programa ejecutando la instrucción [seed](database/seed.sql).
 
 ### 2. Descargar el proyecto
 Puedes descargar la versión más reciente de Mini Inventario 2 desde [GitHub Releases](https://github.com/mendozarojasdev/mini-inventario-java/releases/latest).
@@ -83,12 +83,11 @@ Si deseas continuar con el desarrollo del proyecto.
 ```ini
 MiniInventario2 > build path > add libraries...
 new > name: mariadb-jdbc
-
 # No seleccionar la opcion [System library]
 add external jars...
 # Buscar conector en C:\Program Files\Java\jdk-23\lib\mariadb-jdbc
 ```
-Realizar el mismo procedimiento para las librerias de Jasper Reports.
+Realizar el mismo procedimiento para las librerías de Jasper Reports.
 
 ✅ Listo, ahora podrás continuar con el desarrollo del proyecto.
 
