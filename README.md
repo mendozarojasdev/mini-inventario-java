@@ -22,7 +22,7 @@ Sistema para control de productos alimenticios desarrollado en Java con CRUD com
 > Pantalla principal con datos de prueba
 
 ### Pantalla de reportes
-![pantalla reportes](screenshots/07-previsualizar-reporte)
+![pantalla reportes](screenshots/07-previsualizar-reporte.png)
 > Pantalla de previsualización de reportes
 
 📂 Puedes ver más capturas en la carpeta [/screenshots](screenshots/).
@@ -59,67 +59,37 @@ Puedes descargar la versión más reciente de Mini Inventario 2 desde [GitHub Re
 
 ### 3. Instalar ejecutable
 - Ejecutar el .exe para comenzar la instalación
-- El programa se instalará por defecto en la ruta C:\Users\(Usuario)\AppData\Local\Inventario\, también se puede instalar en una ruta diferente como C:\Program Files\Mini Inventario 2, pero en este caso se debe ejecutar con privilegios de administrador.
+- El programa se instalará por defecto en la ruta C:\Users\(Usuario)\AppData\Local\Inventario\, también se puede instalar en una ruta diferente como C:\Program Files\Mini Inventario 2, pero en este caso el ejecutable se debe ejecutar con privilegios de administrador.
 
 ## Desarrollo
-Si deseas continuar con el desarrollo del proyecto:
-- Asegúrate de tener instalado [Java JDK 23](https://download.oracle.com/java/23/archive/jdk-23.0.1_windows-x64_bin.exe) y [MariaDB 12.0.2](https://mariadb.org/download/)
-- 
-- También es necesario tener Eclipse IDE for Java Developers.
-### 1. Clona este proyecto y copia la carpeta MiniInventario2 a tu eclipse-workspace
+Si deseas continuar con el desarrollo del proyecto.
 
+### Requerimientos
+- [Eclipse IDE for Java Developers](https://eclipseide.org/)
+- [Jaspersoft Software](https://community.jaspersoft.com/download-jaspersoft/community-edition/) (Si se requiere editar el formato de reporte)
+- [Java JDK 23](https://download.oracle.com/java/23/archive/jdk-23.0.1_windows-x64_bin.exe)
+- [MariaDB 12.0.2](https://mariadb.org/download/)
+- [MariaDB Connector/J (JDBC) 3.5.2](https://dlm.mariadb.com/4174416/Connectors/java/connector-java-3.5.2/mariadb-java-client-3.5.2.jar)
+- [Jasper Reports Libraries](https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports)
+- [Jasper Reports PDF Libraries](https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports-pdf/)
 
-### 3. Configurar PHP en WampServer
-Edita el archivo `php.ini` y ajusta las siguientes configuraciones:
+### Instrucciones
+- Sigue las [instrucciones](#1.crear-base-de-datos) mencionadas anteriormente para crear la base de datos.
+- Clona este proyecto y copia la carpeta MiniInventario2 en tu /eclipse-workspace
+- Guarda mariadb-java-client-3.5.2.jar y las librerías .jar de Jasper Reports en una ubicación p. ej. C:\Program Files\Java\jdk-23\lib\mariadb-jdbc y C:\Program Files\Java\jdk-23\lib\jasper-reports
+- Importar librerías al proyecto en Eclipse IDE:
 
 ```ini
-date.timezone = America/Mexico_City
-display_errors = Off
-upload_max_filesize = 256M
+MiniInventario2 > build path > add libraries...
+new > name: mariadb-jdbc
 
-# Habilita las siguientes extensiones
-extension=mysqli
-extension=gd
+# No seleccionar la opcion [System library]
+add external jars...
+# Buscar conector en C:\Program Files\Java\jdk-23\lib\mariadb-jdbc
 ```
+Realizar el mismo procedimiento para las librerias de Jasper Reports.
 
-### 4. Configurar MariaDB en lugar de MySQL
-En WampServer:
-```ini
-Right-click Wampmanager icon -> Tools -> Invert default DBMS MySQL to MariaDB
-```
-
-### 5. Crear la base de datos
-- Abre phpMyAdmin desde localhost/phpmyadmin/
-- Ingresa con usuario: **root** (sin contraseña por defecto).
-- Copia y ejecuta el esquema que se encuentra en el [repositorio](database/biblioteca_asistencias.sql).
-
-### 6. Desplegar el proyecto
-Descomprime el archivo zip en:
-```bash
-C:\wamp\www\
-```
-
-### 7. Crear usuario principal
-Ingresa a:
-```bash
-localhost/biblioteca-asistencias/admin/signup.php
-```
-En este aparado registra el primer usuario administrador.
-
-### 8. Instalar la aplicación
-- Una vez dentro, utiliza la opción “instalar” (aparece en la esquina derecha de la URL).
-- Esto generará un acceso directo en tu escritorio para ingresar más fácilmente.
-
-### 9. Instalar PhpSpreadsheet
-Abre una terminal en la ruta:
-```bash
-C:/wamp/www/biblioteca-asistencias/componentes/phpspreadsheet
-```
-En esta ruta ejecuta el siguiente comando.
-```bash
-composer require phpoffice/phpspreadsheet
-```
-✅ Listo, el sistema debería estar funcionando en el entorno local.
+✅ Listo, ahora podrás continuar desarrollando el proyecto.
 
 ## Licencia
 Mini Inventario 2 está publicado bajo la licencia MIT. Consulta el archivo [MIT license](https://github.com/mendozarojasdev/mini-inventario-java/blob/master/LICENSE) para más información.
