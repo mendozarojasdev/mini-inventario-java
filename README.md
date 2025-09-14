@@ -60,7 +60,7 @@ Puedes descargar la versión más reciente de Mini Inventario 2 desde [GitHub Re
 
 ### 3. Instalar ejecutable
 - Ejecutar el .exe para comenzar la instalación
-- El programa se instalará por defecto en la ruta `C:\Users\(Usuario)\AppData\Local\Inventario\`, también es posible realizar la instalación en una ruta diferente como `C:\Program Files\Mini Inventario 2`, pero en este caso el ejecutable se debe ejecutar con privilegios de administrador.
+- El programa se instalará por defecto en la ruta `C:\Users\(Usuario)\AppData\Local\Inventario\`, también es posible realizar la instalación en una ruta diferente p. ej. `C:\Program Files\Mini Inventario 2`, pero en este caso el ejecutable se debe ejecutar con privilegios de administrador.
 
 ## Desarrollo
 Si deseas continuar con el desarrollo del proyecto.
