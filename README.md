@@ -59,7 +59,7 @@ Sistema para control de productos alimenticios desarrollado en Java con CRUD com
 Puedes descargar la versión más reciente de Mini Inventario 2 desde [GitHub Releases](https://github.com/mendozarojasdev/mini-inventario-java/releases/latest).
 
 ### 3. Instalar ejecutable
-- Ejecutar el .exe para comenzar la instalación
+- Ejecutar el `.exe` para comenzar la instalación
 - El programa se instalará por defecto en la ruta `C:\Users\(Usuario)\AppData\Local\Inventario\`, también es posible realizar la instalación en una ruta diferente p. ej. `C:\Program Files\Mini Inventario 2`, pero en este caso el ejecutable se debe ejecutar con privilegios de administrador.
 
 ## Desarrollo
@@ -76,7 +76,7 @@ Si deseas continuar con el desarrollo del proyecto.
 
 ### Instrucciones
 - Sigue las [instrucciones](#1-crear-base-de-datos) mencionadas anteriormente para crear la base de datos.
-- Clona este proyecto y copia la carpeta MiniInventario2 en tu /eclipse-workspace
+- Clona este proyecto y copia la carpeta MiniInventario2 en tu `/eclipse-workspace`
 - Guarda `mariadb-java-client-3.5.2.jar` y las librerías `.jar` de Jasper Reports en una ubicación p. ej. `C:\Program Files\Java\jdk-23\lib\mariadb-jdbc` y `C:\Program Files\Java\jdk-23\lib\jasper-reports`
 - Importar librerías al proyecto en Eclipse IDE:
 
