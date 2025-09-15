@@ -40,8 +40,8 @@ Sistema para control de productos alimenticios desarrollado en Java con CRUD com
 - MariaDB 12.0.2
 
 **Software**
-- Eclipse IDE 2025-03
-- Jaspersoft Studio 7.0.2
+- [Eclipse IDE 2025-03](https://eclipseide.org/)
+- [Jaspersoft Studio 7.0.2](https://community.jaspersoft.com/download-jaspersoft/community-edition/)
 
 ## Requerimientos
 - [Java JDK 23](https://download.oracle.com/java/23/archive/jdk-23.0.1_windows-x64_bin.exe)
@@ -66,8 +66,8 @@ Puedes descargar la versión más reciente de Mini Inventario 2 desde [GitHub Re
 Si deseas continuar con el desarrollo del proyecto.
 
 ### Requerimientos
-- [Eclipse IDE for Java Developers](https://eclipseide.org/)
-- [Jaspersoft Software](https://community.jaspersoft.com/download-jaspersoft/community-edition/) (Si se requiere editar el formato de reporte)
+- Eclipse IDE for Java Developers
+- Jaspersoft Software (Si se requiere editar el formato de reporte)
 - [Java JDK 23](https://download.oracle.com/java/23/archive/jdk-23.0.1_windows-x64_bin.exe)
 - [MariaDB 12.0.2](https://mariadb.org/download/)
 - [MariaDB Connector/J (JDBC) 3.5.2](https://dlm.mariadb.com/4174416/Connectors/java/connector-java-3.5.2/mariadb-java-client-3.5.2.jar)
