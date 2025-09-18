@@ -12,6 +12,7 @@ Sistema para control de productos alimenticios desarrollado en Java con CRUD com
 
 ## Características principales
 - CRUD de productos (Crear, Leer, Actualizar, Eliminar).
+- Conexión a **MariaDB** para almacenamiento de datos.
 - Interfaz gráfica desarrollada con Java Swing.
 - Visualización de registros en tabla dinámica.
 - Generación de reportes **PDF** con logotipo, fecha actual y listado de productos (Jaspersoft).
