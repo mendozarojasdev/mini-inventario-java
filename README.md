@@ -1,6 +1,8 @@
 # Mini Inventario 2
 Sistema para control de productos alimenticios desarrollado en Java con CRUD completo y generación de reportes en PDF.
 
+  👉 También disponible en [versión Python](https://github.com/mendozarojasdev/mini-inventario-python).
+
 ## Tabla de contenido
 - [Características principales](#características-principales)
 - [Screenshots](#screenshots)
