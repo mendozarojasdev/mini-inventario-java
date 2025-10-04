@@ -1,5 +1,5 @@
 # Mini Inventario 2
-Sistema para control de productos alimenticios desarrollado en Java con CRUD completo y generación de reportes en PDF.
+Sistema para control de productos alimenticios desarrollado en Java con **CRUD** completo y generación de reportes en **PDF**.
 
   👉 También disponible en [versión Python](https://github.com/mendozarojasdev/mini-inventario-python).
 
@@ -13,9 +13,9 @@ Sistema para control de productos alimenticios desarrollado en Java con CRUD com
 - [Licencia](#licencia)
 
 ## Características principales
-- CRUD de productos (Crear, Leer, Actualizar, Eliminar).
+- **CRUD** de productos (Crear, Leer, Actualizar, Eliminar).
 - Conexión a **MariaDB** para almacenamiento de datos.
-- Interfaz gráfica desarrollada con Java Swing.
+- Interfaz gráfica desarrollada con **Java Swing**.
 - Visualización de registros en tabla dinámica.
 - Generación de reportes **PDF** con logotipo, fecha actual y listado de productos (Jaspersoft).
 
